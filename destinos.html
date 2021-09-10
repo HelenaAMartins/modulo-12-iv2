@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <title>CBC Turismo | Destinos</title>
+</head>
+<body>
+  <div class="loader loader--active">
+    <div class="loader__icon">
+      <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+        <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+        <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+      </svg>
+    </div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+  </div>
+  <header>
+    <div class="container">
+      <div class="menuHero">
+        <h1><img class="logo" src="./assets/img/logo.png"></h1>
+        <nav>
+          <ul class="listMenuHero">
+            <li><a class="listMenuHero__link" href="index.html"> Home</a></li>
+            <li><a class="listMenuHero__link" href="pacotes.html"> Pacotes</a></li>
+            <li><a class="listMenuHero__link" href="destinos.html">CBC no Mundo</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sloganWrapper">
+        <h2 class="slogan">Confira nossos destinos</br>e escolha agora mesmo</br>sua próxima viagem</h2>
+      </div>
+    </div>
+  </header>
+   
+    <main>
+      <section>
+        <div class="container">
+          <div class="selector">
+            <h2 class="title destinationTitle">Selecione a localização</h2>
+            <div class="selector__box">
+              <select id="destinations">
+                <option value="" disabled selected>Escolha seu destino</option>
+                <option value="disney" data-price="12x de R$ 1.500,00">Disney</option>
+                <option value="london">Londres</option>
+                <option value="noronha">Fernando de Noronha</option>
+                <option value="paris">Paris</option>
+                <option value="egypt">Egito</option>
+              </select>
+            </div>
+            <div id="map">
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="banner">
+      <div class="container">
+      <figure>
+        <img src="./assets/img/ad-home.png" alt="Safari">
+      </figure>
+    </div>      
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+
+    <div class="footerInfo">
+      <div>
+        <h3 class="footerHeading">CBC Brasil</h3>
+        <ul class="footerCol">
+          <li>Sobre Nós</li>
+          <li>Sala de Imprensa</li>
+          <li>Trabalhe Conosco</li>
+          <li>Seja Franqueado</li>
+          <li>Instituto CBC</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footerHeading">Televendas</h3>
+        <ul class="footerCol">
+          <li>Segunda a Sexta 8h às 22h</li>
+          <li>Sábado 9h às 21h</li>
+          <li>Domingo s e feriados 10h às 21h</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footerHeading">Central de Atendimento</h3>
+        <ul class="footerCol"> 
+          <li>11 3030 3030</li>
+          <li>Segunda a Sexta 9h às 20h</li>
+          <li>Sábado e feriados 9h às 18h</li>
+          <li>Informações COVID-19</li>
+          <li>Precisa de ajuda?</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footerHeading">Termos</h3>
+        <ul class="footerCol">
+          <li>Condições de uso</li>
+          <li>Condições gerais</li>
+          <li>Política e privacidade</li>
+          <li>Seus dados na CBC</li>
+          <li>Lei Geral de Proteção de Dados</li>
+          <li>Código de Conduta Ética</li>
+        </ul>
+      </div>
+    </div>
+
+  <div class="footerSocial">
+    <div class="footerApp">
+      <h3 class="footerHeading">Baixe nosso Aplicativo</h3>
+      <div class="storeIcons">
+        <a href="#"><img src="./assets/img/disponivel-na-app-store-botao-10.png" alt="" class="storeIcon"></a>
+        <a href="#"><img src="./assets/img/disponivel-google-play-badge-6.png" alt="" class="storeIcon"></a>
+      </div>
+    </div>
+
+    <div class="footerSocialLinks">
+      <h3 class="footerHeading">Siga ofertas nas redes</h3>
+      <div class="footerSocialIcons">
+
+        <a href="#" class="socialIconBg">
+          <img src="./assets/img/facebook.png" alt="">
+        </a>
+        <a href="#" class="socialIconBg">
+          <img src="./assets/img/instagram.png" alt="">
+        </a>
+        <a href="#" class="socialIconBg">
+          <img src="./assets/img/twitter.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</footer>
+  <script src="./assets/js/app.js"></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCai8KAAK7exQcmQ1gfLrZ8WEJ4KPTfND0&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
