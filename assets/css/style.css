@@ -37,6 +37,7 @@ header.home{
   bottom: 10%;
   left: 50%;
   transition: all .5s;
+  display: inline-flex;
 }
 
 .bounce {
