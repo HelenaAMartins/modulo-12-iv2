@@ -186,11 +186,11 @@ a, button {
   margin: 10px 0;
   font-weight: 700;
   font-size: 30px;
-  color: #000;
+  
 }
 
 .tripName a{
-  color: inherit;
+  color: #000;
   transition: all .5s;
 }
 
